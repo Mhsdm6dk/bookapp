@@ -1,0 +1,368 @@
+/* header__head */
+.header{
+    height: 140px;
+    background: url(./image/head_background.jpg);
+    background-repeat: no-repeat;
+}
+.dau{
+    background: url(./image/Hellolovely.png);
+	background-repeat: no-repeat;
+	background-size: 250px;
+	background-position:10px 50px;
+	height: 130px;
+	border: 0px;
+}
+.header__head{
+    display: inline-flex;   
+    flex-wrap: nowrap;
+    height: 30%;
+
+}
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.header__headtext{
+    position: relative;
+    display: inline-flex;
+    list-style: none;
+    bottom: 15px;
+    right: 20px;
+    font-weight: 500;
+}
+.header__headtext-text{
+    margin-left:4px ;
+    font-size: 16px;
+    font-style: italic;
+    cursor: default;
+}
+.header__headicon{
+    margin-left: 350px;
+    display: inline-flex;
+    list-style: none;
+}
+.form__button{
+    cursor: pointer;
+    background-color:white;
+    border:none;
+    font-size: 16px;
+    margin-left:10px ;
+}
+.icon{
+    font-size: 25px;
+}
+.form__inputform{
+    width: 400px;
+    height: 95%;
+    position: absolute;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    top:12px;
+    left: 15px;
+    z-index: 3;
+}
+.form__inputform-element{
+    margin-left:10px ;
+    margin-bottom: 20px;
+}
+.form__inputform-text{
+    width: 350px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #e5e7e9;
+}
+.form__inputform-text:focus{
+    
+}
+.form__inputform-button{
+    border-radius: 15px;
+    border: none;
+    margin:15px 0px 0px 100px;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form__inputform-button2{
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    margin:15px 0px 0px 100px;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.spaceline{
+    color: #686868;
+    font-style: inherit;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.form__header{
+    display: inline-flex;
+    margin-bottom: 25px;
+}
+.form__header-link{
+    font-weight: 500;
+    position: relative;
+    color: #c92127;
+    cursor: pointer;
+    left:230px;
+    top:20px;
+}
+/* header__search */
+.header__searchborder{
+    display: inline-flex;
+    position: relative;
+    left: 355px;
+    top:30px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.header__search-input{
+    height: 25px;
+    border:none;
+    width:500px;
+}
+.header__search-button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.header__searchborder{
+    z-index: 5;
+}
+/* css cho giỏ hàng */
+.dong{
+    font-weight: bold;
+    outline: none;
+    background: white;
+    border: none;
+    color: #c92127;
+    cursor: pointer;
+    position: relative;
+    left: 260px;
+    top: 10px;
+}
+.giohang__sach{
+    width: 40px;
+    height: 40px;
+}
+.giohang__button-xoa{
+    margin-left: 50px;
+    font-weight: 500;
+}
+.giohang__soluong{
+    margin-left: 20px;
+}
+.giohang_title{
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+.formthanhtoan{
+    position: fixed;
+    background-color: #f1f1f2;
+    right: 250px;
+    width: 750px;
+    height: 405px;
+    z-index: 15;
+    border-radius: 4px;
+    border: 2px solid #ced4da;
+    background-image:url(https://image.freepik.com/free-vector/white-abstract-background_23-2148810112.jpg);
+}
+.thanhtoan__inputtext{
+    width: 450px;
+    border-radius:4px ;
+    height: 25px;
+    border: 1px solid #ced4da;
+
+}
+.quanlydonhang{
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    top:10px;
+    border-radius: 3px;
+    left: 370px;
+    width: 160px;
+    height: 20px;
+    border: 2px solid black;
+    padding: 0px 5px 5px 5px;
+}
+/* body */
+.body{
+    display: flex;
+    background-color:#f1f1f2;
+}
+.body__danhmuc{
+    width: 16.6667%;
+    background-color: #f1f1f2;
+}
+.body__danhmuc-form{
+    margin: 12px;
+    border-radius: 4px;
+    background-color:white;
+}
+.body__danhmuc-list{
+    list-style: none;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.body__danhmuc-item{
+    border-top: 1px solid rgb(196, 196, 196);
+    padding-top: 8px;
+    height: 35px;
+    cursor: pointer;
+}
+.body__danhmuc-item:hover .fas.fa-chevron-right{
+    display: block;
+    position: relative;
+    left: 150px;
+    bottom: 15px;
+}
+.fas.fa-chevron-right{
+    display: none;
+    
+}
+.body__itembook{
+    width: 83.3333%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.body__itembook-item{
+    text-align: center;
+    width: 20%;
+    color: #4a4540;
+    font-weight: 500;
+}
+.body__itembook-item-image{
+    margin-top: 12px;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: 150px;
+    height: 150px;
+}
+.body__itembook-item-box:hover{
+    border: 1px solid black;
+    margin: 11px;
+    border-style: groove;
+}
+.body__itembook-item-box{
+    margin: 12px;
+    background-color: white;
+    border-radius: 4px;
+    padding-bottom:10px ;
+}
+.them{
+    cursor: pointer;
+    border: none;
+    background: white;
+    color: #c92127;
+}
+.mua{
+    cursor: pointer;
+    margin-left: 50px;
+}
+/* foot */
+.chan{
+    display: inline-flex;
+}
+.map{
+    margin: 10px;
+    border: 1px solid black ;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.chan__thongtinlienhe{
+    margin-left: 10px;
+}
+.chan__thongtinlienhe-link-messenger{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.itemshow{
+    position: fixed;
+    top:50px;
+    left: 300px;
+    height: 500px;
+    width: 800px;
+    background-color: white;
+    border-radius: 4px;
+    z-index: 10;
+    animation: fadeIn linear 0.3s;
+    overflow: hidden;
+}
+.itemshow__image{
+    background-color:white;
+    width: 400px;
+    height: 450px;
+    z-index: 12;
+    
+}
+.itemshow__info{
+    position: relative;
+    bottom: 35px;
+    width: 395px;
+    height: 350px;
+    overflow: auto;
+    z-index: 13;
+    background: white;
+}
+.thongtincanhan{
+    list-style: none;
+    width: 280px;
+    position: absolute;
+    left: 410px;
+    top: 50px;
+    border-radius: 6px;
+    background-color: white;
+    border: 0.5px solid gray;
+}
+.form__dangnhap-inputform{
+    height: 500px;
+    width: 800px;
+    left: 240px;
+    top: 55px;
+    position: fixed;
+    background-image: url(./image/iStock-506432952.jpg);
+    background-size: 800px;
+    z-index: 6;
+    border: 1px solid #686868;
+    border-radius: 6px;
+   
+}
+.background {
+    z-index: 6;
+    position: fixed;
+    background-color: rgba(0, 0, 0,0.35);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    animation: fadeIn linear 0.3s;
+  }
+  .thongtincanhan__info:hover{
+    background: rgba(207, 207, 207,0.35);
+  }
+  .thongtincanhan__info{
+      position: relative;
+      right: 35px;
+      border-radius: 4px;
+      width: 309px;
+      margin-top: 5px;
+      cursor: pointer;
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+  }
